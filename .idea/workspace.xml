@@ -192,7 +192,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="JUnit.ConfigClientApplicationTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -200,6 +200,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplicationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhc.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhc.config" />
+      <option name="MAIN_CLASS_NAME" value="com.lhc.config.ConfigClientApplicationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,19 +292,6 @@
           <option name="value" value="8091" />
         </param>
       </additionalParameters>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-world-docker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lhc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhc.HelloWorldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -455,19 +458,19 @@
       <item itemvalue="Spring Boot.CollectionApplication1" />
       <item itemvalue="Spring Boot.DataApplication1" />
       <item itemvalue="Spring Boot.ReportApplication1" />
-      <item itemvalue="Spring Boot.HelloWorldApplication" />
       <item itemvalue="Docker.Docker Image (3)" />
       <item itemvalue="Spring Boot.LogApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="JUnit.ConfigClientApplicationTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigClientApplicationTest.test" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ServerApplication" />
         <item itemvalue="Spring Boot.LogApplication" />
         <item itemvalue="Docker.Docker Image (3)" />
-        <item itemvalue="Spring Boot.HelloWorldApplication" />
       </list>
     </recent_temporary>
   </component>
