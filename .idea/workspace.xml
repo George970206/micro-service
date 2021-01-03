@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41dd1485-2f58-45ad-ba1d-f0eaade3d53e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-repo/weather-config-client-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-config-client/src/main/java/com/lhc/config/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-config-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-config-client/src/test/java/com/lhc/config/ConfigClientApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/weather-config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/weather-config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +187,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigClientApplicationTest.test">
+  <component name="RunManager" selected="JUnit.ConfigClientApplicationTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhc.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhc.config" />
+      <option name="MAIN_CLASS_NAME" value="com.lhc.config.ConfigClientApplicationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,6 +272,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="weather-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhc.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhc.config.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="weather-config-server" />
       <extension name="coverage">
@@ -296,15 +319,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-world-log" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lhc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhc.LogApplication" />
+    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-world-docker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhc.HelloWorldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -441,36 +458,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Docker Image (3)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="myDocker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="bash:latest" />
-          <option name="command" value="" />
-          <option name="containerName" value="bash" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.CityApplication1" />
       <item itemvalue="Spring Boot.CollectionApplication1" />
       <item itemvalue="Spring Boot.DataApplication1" />
       <item itemvalue="Spring Boot.ReportApplication1" />
-      <item itemvalue="Docker.Docker Image (3)" />
-      <item itemvalue="Spring Boot.LogApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="JUnit.ConfigClientApplicationTest.test" />
+      <item itemvalue="Spring Boot.HelloWorldApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="JUnit.ConfigClientApplicationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigClientApplicationTest" />
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
         <item itemvalue="JUnit.ConfigClientApplicationTest.test" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ServerApplication" />
-        <item itemvalue="Spring Boot.LogApplication" />
-        <item itemvalue="Docker.Docker Image (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +492,7 @@
       <workItem from="1609398649972" duration="18834000" />
       <workItem from="1609567738932" duration="4146000" />
       <workItem from="1609578582962" duration="9567000" />
-      <workItem from="1609614176026" duration="12714000" />
+      <workItem from="1609614176026" duration="13837000" />
     </task>
     <task id="LOCAL-00001" summary="2021-01-02 00:03:59 第一次提交">
       <created>1609704550844</created>
@@ -495,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609704550844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021-01-02 00:04:33 第二次提交">
+      <created>1609706001259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609706001259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021-01-02 00:04:33 第二次提交">
+      <created>1609706079046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609706079046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +523,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021-01-02 00:03:59 第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-01-02 00:03:59 第一次提交" />
+    <MESSAGE value="2021-01-02 00:04:33 第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-01-02 00:04:33 第二次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1292" y="417" key="#Port_bindings" timestamp="1609686607874">
@@ -522,46 +543,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="525" y="455" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1609329001357" />
-    <state x="466" y="14" key="CommitChangelistDialog2" timestamp="1609704542808">
+    <state x="466" y="14" width="1336" height="1051" key="CommitChangelistDialog2" timestamp="1609706078353">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="466" y="14" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1609704542808" />
+    <state x="466" y="14" width="1336" height="1051" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1609706078353" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1609703869420">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1609703869420" />
-    <state width="1262" height="372" key="GridCell.Tab.0.bottom" timestamp="1609704991200">
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1609707075826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.0.center" timestamp="1609704991200">
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075826" />
+    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1609707075826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.0.left" timestamp="1609704991200">
+    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075826" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1609707075826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.0.right" timestamp="1609704991200">
+    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075826" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1609707075826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.1.bottom" timestamp="1609704991201">
+    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075826" />
+    <state width="1262" height="372" key="GridCell.Tab.1.bottom" timestamp="1609707075748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991201" />
-    <state width="1262" height="372" key="GridCell.Tab.1.center" timestamp="1609704991200">
+    <state width="1262" height="372" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075748" />
+    <state width="1262" height="372" key="GridCell.Tab.1.center" timestamp="1609707075748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.1.left" timestamp="1609704991200">
+    <state width="1262" height="372" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075748" />
+    <state width="1262" height="372" key="GridCell.Tab.1.left" timestamp="1609707075748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
-    <state width="1262" height="372" key="GridCell.Tab.1.right" timestamp="1609704991200">
+    <state width="1262" height="372" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075748" />
+    <state width="1262" height="372" key="GridCell.Tab.1.right" timestamp="1609707075748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1262" height="372" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609704991200" />
+    <state width="1262" height="372" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609707075748" />
     <state width="1448" height="506" key="GridCell.Tab.2.bottom" timestamp="1609523355735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -582,10 +603,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1609703801880" />
-    <state x="581" y="255" key="Vcs.Push.Dialog.v2" timestamp="1609704706860">
+    <state x="581" y="255" key="Vcs.Push.Dialog.v2" timestamp="1609706084949">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="581" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609704706860" />
+    <state x="581" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609706084949" />
     <state x="858" y="429" width="635" height="380" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1609685938036">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
