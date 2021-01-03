@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>micro-service</artifactId>
+        <groupId>com.lhc</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>hello-world-docker</artifactId>
+    <version>1.0.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--指定版本和goals-->
+                <version>2.3.4.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                    <mainClass>com.lhc.HelloWorldApplication</mainClass>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.2</version>
+                <!-- 将此插件绑定在package这个phase上，也就是说，用户只需要执行mvn package，就会自动执行mvn docker:build -->
+                <executions>
+                    <execution>
+                        <id>build.image</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- 用于指定镜像名称 -->
+                    <imageName>${project.groupId}/${project.artifactId}</imageName>
+                    <!--指定标签-->
+                    <imageTags>
+                        <imageTag>
+                            latest
+                        </imageTag>
+                    </imageTags>
+                    <!-- 指定 Dockerfile 路径-->
+                    <dockerDirectory>${project.basedir}</dockerDirectory>
+                    <!-- 指定远程docker api的地址 -->
+                    <dockerHost>http://192.168.137.3:2375</dockerHost>
+                    <!-- 这里是复制 jar 包到 docker 容器指定目录配置，也可以写到 Dockerfile 中 -->
+                    <resources>
+                        <resource>
+                            <!-- 将打包后的资源文件复制到该目录 -->
+                            <targetPath>/</targetPath>
+                            <!-- 需要复制的文件所在目录，maven打包的应用jar包保存在target目录下面 -->
+                            <directory>${project.build.directory}</directory>
+                            <!-- 需要复制的文件，打包好的应用jar包 -->
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

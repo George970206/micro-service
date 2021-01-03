@@ -1,0 +1,9 @@
+com\lhc\data\vo\Weather.class
+com\lhc\data\controller\WeatherController.class
+com\lhc\data\service\WeatherDataService.class
+com\lhc\data\service\impl\WeatherDataServiceImpl.class
+com\lhc\data\config\RestConfiguration.class
+com\lhc\data\vo\Forecast.class
+com\lhc\data\vo\Yesterday.class
+com\lhc\data\DataApplication.class
+com\lhc\data\vo\WeatherResponse.class

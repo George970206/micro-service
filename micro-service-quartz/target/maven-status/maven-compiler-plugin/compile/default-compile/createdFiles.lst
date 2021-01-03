@@ -1,0 +1,15 @@
+com\lhc\weather\config\QuartzConfiguration.class
+com\lhc\weather\vo\City.class
+com\lhc\weather\job\WeatherDataSyncJob.class
+com\lhc\weather\QuartzApplication.class
+com\lhc\weather\vo\CityList.class
+com\lhc\weather\service\CityDataService.class
+com\lhc\weather\util\XmlBuilder.class
+com\lhc\weather\vo\Forecast.class
+com\lhc\weather\vo\WeatherResponse.class
+com\lhc\weather\vo\Yesterday.class
+com\lhc\weather\service\WeatherDataService.class
+com\lhc\weather\vo\Weather.class
+com\lhc\weather\config\RestConfiguration.class
+com\lhc\weather\service\impl\CityDataServiceImpl.class
+com\lhc\weather\service\impl\WeatherDataServiceImpl.class

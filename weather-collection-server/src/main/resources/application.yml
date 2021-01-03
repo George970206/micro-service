@@ -1,0 +1,18 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+  application:
+    name: weather-collection-eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8084/eureka/
+
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="weather-config-client" />
+        <module name="untitled" />
+        <module name="weather-city-server" />
+        <module name="hello-world-docker" />
+        <module name="weather-eureka-server" />
+        <module name="micro-service-quartz" />
+        <module name="hello-world-log" />
+        <module name="weather-config-server" />
+        <module name="weather-data-server" />
+        <module name="weather-collection-server" />
+        <module name="weather-report-server" />
+        <module name="weather-eureka-client-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

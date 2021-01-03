@@ -1,0 +1,7 @@
+com\lhc\collection\vo\City.class
+com\lhc\collection\CollectionApplication.class
+com\lhc\collection\config\RestConfiguration.class
+com\lhc\collection\job\WeatherDataSyncJob.class
+com\lhc\collection\service\impl\WeatherDataCollectionServiceImpl.class
+com\lhc\collection\config\QuartzConfiguration.class
+com\lhc\collection\service\WeatherDataCollectionService.class

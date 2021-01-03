@@ -1,0 +1,72 @@
+GET http://localhost:10000/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-02T064921.200.txt
+
+###
+
+GET http://localhost:8083/cities
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-31T045832.200.json
+
+###
+
+GET http://localhost:8081/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8081/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-31T031441.404.json
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-31T013611.500.json
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-31T013317.500.json
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-31T013028.500.json
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/weather/cityId/101280601
+Accept: */*
+Cache-Control: no-cache
+
+###
+

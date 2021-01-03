@@ -1,0 +1,15 @@
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\Weather.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\service\CityDataService.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\service\impl\WeatherDataServiceImpl.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\WeatherResponse.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\City.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\Forecast.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\util\XmlBuilder.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\service\impl\CityDataServiceImpl.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\Yesterday.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\vo\CityList.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\config\QuartzConfiguration.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\job\WeatherDataSyncJob.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\QuartzApplication.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\service\WeatherDataService.java
+F:\idea_project\micro-service\micro-service-quartz\src\main\java\com\lhc\weather\config\RestConfiguration.java

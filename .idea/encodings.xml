@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hello-world-docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world-docker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-quartz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-city-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-city-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-collection-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-collection-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-data-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-data-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-eureka-client-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-eureka-client-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-report-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weather-report-server/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
